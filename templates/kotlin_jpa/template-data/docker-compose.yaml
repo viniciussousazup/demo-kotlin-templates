@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:{{inputs.pg_version}}
+    ports:
+      - "{{inputs.pg_port}}:5432"
+    environment:
+      - POSTGRES_DB={{inputs.project_name}}
+      - POSTGRES_USER={{inputs.project_name}}
+      - POSTGRES_PASSWORD={{inputs.project_name}}
+      - MAX_CONNECTIONS=300
+    networks:
+      - "{{inputs.project_name}}"
+{% if snippet %}
+    volumes:
+      - ./docker/postgres/init:/docker-entrypoint-initdb.d
+{% endif %}

@@ -1,0 +1,27 @@
+name: "kotlin-jpa"
+description: Just a simple plugin
+type: plugin
+tags:
+  - "kotlin-scaffold"
+  - "kotlin-jpa-plugin"
+inputs:
+  - label: "Project name (ArtifactId)"
+    type: text
+    name: "project_name"
+    default: "demoApplication"
+  - label: "GroupId"
+    type: text
+    name: "group_id"
+    default: "com.example"
+  - label: "Postgres port"
+    type: text
+    name: "pg_port"
+    default: "5432"
+  - label: "Postgres Version"
+    type: text
+    name: "pg_version"
+    default: "13.3"
+    items:
+      - "13.3"
+      - "12.7"
+      - "9.6"

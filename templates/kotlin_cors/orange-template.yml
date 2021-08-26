@@ -1,0 +1,15 @@
+name: "kotlin-cors"
+description: Just a simple plugin
+type: plugin
+tags:
+  - "kotlin-scaffold"
+  - "kotlin-cors-plugin"
+inputs:
+  - label: "Project name (ArtifactId)"
+    type: text
+    name: "project_name"
+    default: "demoApplication"
+  - label: "GroupId"
+    type: text
+    name: "group_id"
+    default: "com.example"

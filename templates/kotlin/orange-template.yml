@@ -1,0 +1,14 @@
+name: "kotlin"
+description: Just a simple scaffold
+type: scaffold
+tags:
+  - "kotlin-scaffold"
+inputs:
+  - label: "Project name (ArtifactId)"
+    type: text
+    name: "project_name"
+    default: "demoApplication"
+  - label: "GroupId"
+    type: text
+    name: "group_id"
+    default: "com.example"

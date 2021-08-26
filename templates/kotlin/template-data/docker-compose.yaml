@@ -1,0 +1,8 @@
+version: '3'
+networks:
+  "{{inputs.project_name}}":
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 10.68.80.1/24
