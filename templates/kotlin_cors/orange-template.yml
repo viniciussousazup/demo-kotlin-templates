@@ -1,6 +1,7 @@
 name: "kotlin-cors"
 description: Just a simple plugin
 type: plugin
+haveSample: false
 tags:
   - "kotlin-scaffold"
   - "kotlin-cors-plugin"

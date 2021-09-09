@@ -10,7 +10,7 @@ services:
       - MAX_CONNECTIONS=300
     networks:
       - "{{inputs.project_name}}"
-{% if snippet %}
+{% if sample %}
     volumes:
       - ./docker/postgres/init:/docker-entrypoint-initdb.d
 {% endif %}

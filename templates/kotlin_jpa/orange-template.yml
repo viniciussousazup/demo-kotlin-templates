@@ -1,6 +1,7 @@
 name: "kotlin-jpa"
 description: Just a simple plugin
 type: plugin
+haveSample: true
 tags:
   - "kotlin-scaffold"
   - "kotlin-jpa-plugin"

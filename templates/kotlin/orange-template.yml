@@ -1,6 +1,7 @@
 name: "kotlin"
 description: Just a simple scaffold
 type: scaffold
+haveSample: true
 tags:
   - "kotlin-scaffold"
 inputs:
