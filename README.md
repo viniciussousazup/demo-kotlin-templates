@@ -1,6 +1,6 @@
 # demo-kotlin-templates
 
-## How to test this templates:
+## How to run this templates:
 
 1. clone this repo.
 2. with template-cli add the repo, if you are at same path as the cloned repo you 
