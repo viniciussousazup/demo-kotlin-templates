@@ -1,0 +1,11 @@
+{
+    "global": {
+        "template_name": "kotlin-test",
+        "template_type": "plugin",
+        "template_description": "Just a simple Template",
+        "template_tags": "kotlin-scaffold"
+    },
+    "last": {
+        "template_name": "kotlin-test"
+    }
+}

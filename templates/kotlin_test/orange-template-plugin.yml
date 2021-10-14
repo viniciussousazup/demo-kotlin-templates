@@ -1,0 +1,16 @@
+name: "kotlin-test"
+description: Just a simple Template
+type: plugin
+haveSample: false
+tags:
+  - "kotlin-test-plugin"
+  - "kotlin-scaffold"
+inputs:
+  - label: "Project name (ArtifactId)"
+    type: text
+    name: "project_name"
+    default: "demoApplication"
+  - label: "GroupId"
+    type: text
+    name: "group_id"
+    default: "com.example"
