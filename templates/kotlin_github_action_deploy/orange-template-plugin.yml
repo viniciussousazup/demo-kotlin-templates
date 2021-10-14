@@ -1,0 +1,7 @@
+name: "kotlin-github-action-deploy"
+description: Just a simple Template
+type: plugin
+haveSample: false
+tags:
+  - "kotlin-github-action-deploy-plugin"
+  - "kotlin-scaffold"

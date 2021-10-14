@@ -1,11 +1,14 @@
 {
     "global": {
-        "template_name": "kotlin-test",
+        "template_name": "kotlin-github-action-release",
         "template_type": "plugin",
         "template_description": "Just a simple Template",
         "template_tags": "kotlin-scaffold"
     },
     "last": {
-        "template_name": "kotlin-test"
+        "template_name": "kotlin-github-action-release",
+        "template_type": "plugin",
+        "template_description": "Just a simple Template",
+        "template_tags": "kotlin-scaffold"
     }
 }

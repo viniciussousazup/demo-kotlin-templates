@@ -1,0 +1,7 @@
+name: "kotlin-github-action"
+description: Just a simple Template
+type: plugin
+haveSample: false
+tags:
+  - "kotlin-github-action-plugin"
+  - "kotlin-scaffold"
