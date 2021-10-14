@@ -1,7 +1,7 @@
-name: "kotlin-test"
+name: "kotlin-jpa-test"
 description: Just a simple Template
 type: plugin
-haveSample: false
+haveSample: true
 tags:
   - "kotlin-test-plugin"
   - "kotlin-scaffold"
