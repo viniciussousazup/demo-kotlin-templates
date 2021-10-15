@@ -5,9 +5,9 @@ spec:
       - name: {{project_name|lower}}-application
         livenessProbe:
           httpGet:
-            path: /health
+            path: /actuator/health
             port: http
         readinessProbe:
           httpGet:
-            path: /health
+            path: /actuator/health
             port: http
