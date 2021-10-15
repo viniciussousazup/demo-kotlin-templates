@@ -1,0 +1,12 @@
+name: "kotlin-infra-health"
+description: Just a simple Template
+type: plugin
+haveSample: false
+tags:
+  - "kotlin-infra-health-plugin"
+  - "kotlin-scaffold"
+inputs:
+  - label: "Project name (ArtifactId)"
+    type: text
+    name: "project_name"
+    default: "demoApplication"
