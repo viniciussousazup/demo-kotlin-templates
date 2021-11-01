@@ -13,3 +13,5 @@ inputs:
     type: text
     name: "group_id"
     default: "com.example"
+computedInputs:
+  "my_new_input": "{{project_name|lower}}.txt"
